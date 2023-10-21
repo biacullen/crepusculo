@@ -3,7 +3,7 @@
 const btnMobile = document.getElementById('btn-mobile');
 // const >>declara a nossa variável, no uso do decorrer do código
 
-functiontoggleMenu(Event) {
+function toggleMenu(event) {    
     if (Event.type === 'touchstart') Event.prevenDefault ();
     const nav = document.getElementById ('nav');
     nav.classList.toggle('active');
@@ -14,7 +14,16 @@ functiontoggleMenu(Event) {
     }else{
         Event.currenTarget.setAttribute*('aria-label','abir Menu');
         }    
-    }
+
+
+
+}
+
+    
 
     btnMobile.addEventListener('click',toggleMenu)
     btnMobile;addEventListener('touchstart',toggleMenu)
+    
+
+
+  
