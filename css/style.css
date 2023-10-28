@@ -75,7 +75,7 @@ font-family: 'Metal Mania', sans-serif;
 
 /* Fim estilo carousel */
 /* Início Estilo Media >>Mobile */
-@media (max-width: 600px) {
+@media (max-width: 790px) {
     #menu{
         display: block;
         position: absolute;
@@ -451,5 +451,64 @@ font-family: 'Metal Mania', sans-serif;
     .embed-container .col-lg-6 {
         margin-top: 30px; 
     }
- 
+     
   /* Fim estilo Vídeos */
+  /* Início estilo contato */
+
+
+
+
+
+  .contact {
+    padding: 70px 0px;
+    background: #690a0a;
+  }
+  .section-title h2 {
+    color: #da5353cc;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom:  5px solid #690a0a;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  .section-title p {
+    color: #ffffff;
+    margin-bottom: 30px;    
+  }
+  .contact input,
+  .contact textarea {
+    background: #000000;
+  }
+  .contact textarea{
+    min-height: 188px;
+    max-width: 100%;
+  }
+  .contact .map {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 70%;
+  }
+  /* Fim estilo contato */
+  /* Início estilo Market Place */
+  .market-place {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 10%;
+  }
+  .market-place img {
+    height: 160%;
+    width: 80%;
+  }
+
+
+
+
+  /* Fim estilo Market Place */
